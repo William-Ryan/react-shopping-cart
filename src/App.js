@@ -23,8 +23,8 @@ function App() {
 			<CartContext.Provider value={{ cart }}>
 
 			<Navigation  />
-				path="/" component={Products}/>
-				component={ShoppingCart}/>
+			<Route path="/" component={Products}/>
+			<Route component={ShoppingCart}/>
 
 
 		</CartContext.Provider>
